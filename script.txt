@@ -12,3 +12,5 @@ addBtn.addEventListener("click", () => {
         li.remove();
     });
 });
+
+CHANGED TO TypeScript
