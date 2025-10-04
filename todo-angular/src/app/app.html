@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Angular ToDo</h1>
+  <div class="input-section">
+    <input [(ngModel)]="input">
+    <button (click)="addTasks()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor="Let t of tasks">
+      {{t.text}} <button (click)="deleteTask(t.id)">X</button>
+    </li>
+  </ul>
+</div>
