@@ -1,0 +1,45 @@
+body
+{
+    font-family: Arial;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container
+{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.input-section
+{
+    display: flex;
+    gap: 5px;
+}
+
+input
+{
+    flex: 1;
+    padding: 5px;
+}
+
+button
+{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+li 
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

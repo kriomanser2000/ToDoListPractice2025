@@ -1,0 +1,14 @@
+const input = document.getElementById("taskInput");
+const addBtn = document.getElementById("addBtn");
+const list = document.getElementById("taskList");
+addBtn.addEventListener("click", () => {
+    const text = input.value.trim();
+    if (!text) return;
+    const li = document.createElement("li");
+    li.innerHTML = `${text} <button class="delete>X</button>`;
+    list.appendChild(li);
+    input.value="";
+    li.querySelector(".delete").addEventListener("click", () => {
+        li.remove();
+    });
+});
